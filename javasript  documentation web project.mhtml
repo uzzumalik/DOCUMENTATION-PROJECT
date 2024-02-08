@@ -1,0 +1,309 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/index.html#Variables
+Subject: Javascript Documentation
+Date: Wed, 29 Nov 2023 19:35:33 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--QKsOMormOxwvKmadNYdsabfe3fCrYyI7mhrEo44P3L----"
+
+
+------MultipartBoundary--QKsOMormOxwvKmadNYdsabfe3fCrYyI7mhrEo44P3L----
+Content-Type: text/html
+Content-ID: <frame-ED3D9F88994D10E3641790934ECBD047@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/index.html#Variables
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Javascript Documentation</title>
+   =20
+   =20
+  <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/style.css?_cacheOv=
+erride=3D1701266388753"><link rel=3D"stylesheet" href=3D"http://127.0.0.1:5=
+500/style.css?_cacheOverride=3D1701266388754"></head>
+  <body>
+    <header>
+      <nav>
+        <h1>Javascript Documentation</h1>
+        <ul>
+          <a href=3D"http://127.0.0.1:5500/index.html#Introduction"><li>Int=
+roduction</li></a>
+          <a href=3D"http://127.0.0.1:5500/index.html#What_you_should_alrea=
+dy_know"><li>What you should already know</li></a>
+          <a href=3D"http://127.0.0.1:5500/index.html#JavaScript_and_Java">=
+<li>JavaScript and Java</li></a>
+          <a href=3D"http://127.0.0.1:5500/index.html#Hello_world"><li>Hell=
+o world</li></a>
+          <a href=3D"http://127.0.0.1:5500/index.html#Variables"><li>Variab=
+les</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id=3D"Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting langu=
+age.
+            It is a small and lightweight language. Inside a host environme=
+nt
+            (for example, a web browser), JavaScript can be connected to th=
+e
+            objects of its environment to provide programmatic control over
+            them.
+          </p>
+
+          <p>
+            JavaScript contains a standard library of objects, such as Arra=
+y,
+            Date, and Math, and a core set of language elements such as
+            operators, control structures, and statements. Core JavaScript =
+can
+            be extended for a variety of purposes by supplementing it with
+            additional objects; for example:
+          </p>
+          <ul>
+            <li>
+              Client-side JavaScript extends the core language by supplying
+              objects to control a browser and its Document Object Model (D=
+OM).
+              For example, client-side extensions allow an application to p=
+lace
+              elements on an HTML form and respond to user events such as m=
+ouse
+              clicks, form input, and page navigation.
+            </li>
+            <li>
+              Server-side JavaScript extends the core language by supplying
+              objects relevant to running JavaScript on a server. For examp=
+le,
+              server-side extensions allow an application to communicate wi=
+th a
+              database, provide continuity of information from one invocati=
+on to
+              another of the application, or perform file manipulations on =
+a
+              server.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id=3D"What_you_should_already_know">
+        <h2>What you should already know</h2>
+        <article>
+          <p>This guide assumes you have the following basic background:</p=
+>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide We=
+b
+              (WWW).
+            </li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).=
+</li>
+            <li>
+              Some programming experience. If you are new to programming, t=
+ry
+              one of the tutorials linked on the main page about JavaScript=
+.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id=3D"JavaScript_and_Java">
+        <h2>JavaScript and Java</h2>
+        <article>
+          <p>
+            JavaScript and Java are similar in some ways but fundamentally
+            different in some others. The JavaScript language resembles Jav=
+a but
+            does not have Java's static typing and strong type checking.
+            JavaScript follows most Java expression syntax, naming conventi=
+ons
+            and basic control-flow constructs which was the reason why it w=
+as
+            renamed from LiveScript to JavaScript.
+          </p>
+
+          <p>
+            In contrast to Java's compile-time system of classes built by
+            declarations, JavaScript supports a runtime system based on a s=
+mall
+            number of data types representing numeric, Boolean, and string
+            values. JavaScript has a prototype-based object model instead o=
+f the
+            more common class-based object model. The prototype-based model
+            provides dynamic inheritance; that is, what is inherited can va=
+ry
+            for individual objects. JavaScript also supports functions with=
+out
+            any special declarative requirements. Functions can be properti=
+es of
+            objects, executing as loosely typed methods.
+          </p>
+          <p>
+            JavaScript is a very free-form language compared to Java. You d=
+o not
+            have to declare all variables, classes, and methods. You do not=
+ have
+            to be concerned with whether methods are public, private, or
+            protected, and you do not have to implement interfaces. Variabl=
+es,
+            parameters, and function return types are not explicitly typed.
+          </p>
+        </article>
+      </section>
+      <section id=3D"Hello_world">
+        <h2>Hello world</h2>
+        <article>
+          To get started with writing JavaScript, open the Scratchpad and w=
+rite
+          your first "Hello world" JavaScript code:
+          <code>function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");
+          </code>
+
+          Select the code in the pad and hit Ctrl+R to watch it unfold in y=
+our
+          browser!
+        </article>
+      </section>
+      <section id=3D"Variables">
+        <h2>Variables</h2>
+        <article>
+          <p>
+            You use variables as symbolic names for values in your applicat=
+ion.
+            The names of variables, called identifiers, conform to certain
+            rules.
+          </p>
+          <p>
+            A JavaScript identifier must start with a letter, underscore (_=
+), or
+            dollar sign ($); subsequent characters can also be digits (0-9)=
+.
+            Because JavaScript is case sensitive, letters include the chara=
+cters
+            "A" through "Z" (uppercase) and the characters "a" through "z"
+            (lowercase).
+          </p>
+          <p>
+            You can use ISO 8859-1 or Unicode letters such as =C3=A5 and =
+=C3=BC in
+            identifiers. You can also use the Unicode escape sequences as
+            characters in identifiers. Some examples of legal names are
+            Number_hits, temp99, and _name.
+          </p>
+        </article>
+      </section>
+    </main>
+  <!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--QKsOMormOxwvKmadNYdsabfe3fCrYyI7mhrEo44P3L----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/style.css?_cacheOverride=1701266388753
+
+@charset "utf-8";
+
+* { margin: 0%; padding: 0%; box-sizing: border-box; }
+
+html, body { font-weight: 300; line-height: 1.4; scroll-behavior: smooth; }
+
+a { text-decoration: none; }
+
+body { display: flex; }
+
+header { border: 1px solid rgb(204, 204, 204); height: 100vh; }
+
+nav h1 { font-size: 25px; font-weight: 500; padding: 10px; border-bottom: 1=
+px solid rgb(204, 204, 204); }
+
+nav ul { list-style: none; }
+
+nav ul li { border-bottom: 1px solid rgb(204, 204, 204); padding: 10px; col=
+or: black; }
+
+nav ul li:hover { background: rgb(204, 204, 204); transition: all 0.3s ease=
+-in-out 0s; }
+
+main { padding: 50px; min-width: 1200px; }
+
+section { margin-bottom: 50px; }
+
+section article { font-size: 14px; display: flex; flex-direction: column; g=
+ap: 20px; }
+
+section h2 { font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid=
+ rgb(204, 204, 204); }
+
+section article ul { margin-left: 20px; }
+
+section article ul li { margin-bottom: 10px; }
+
+code { white-space: pre-line; line-height: 2; background: rgb(247, 247, 247=
+); padding: 15px; margin: 10px; border-radius: 5px; }
+
+@media (max-width: 480px) {
+  body { flex-direction: column; }
+  header { height: 200px; overflow: hidden scroll; }
+}
+------MultipartBoundary--QKsOMormOxwvKmadNYdsabfe3fCrYyI7mhrEo44P3L----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/style.css?_cacheOverride=1701266388754
+
+@charset "utf-8";
+
+* { margin: 0%; padding: 0%; box-sizing: border-box; }
+
+html, body { font-weight: 300; line-height: 1.4; scroll-behavior: smooth; }
+
+a { text-decoration: none; }
+
+body { display: flex; }
+
+header { border: 1px solid rgb(204, 204, 204); height: 100vh; }
+
+nav h1 { font-size: 25px; font-weight: 500; padding: 10px; border-bottom: 1=
+px solid rgb(204, 204, 204); }
+
+nav ul { list-style: none; }
+
+nav ul li { border-bottom: 1px solid rgb(204, 204, 204); padding: 10px; col=
+or: black; }
+
+nav ul li:hover { background: rgb(204, 204, 204); transition: all 0.3s ease=
+-in-out 0s; }
+
+main { padding: 50px; min-width: 1200px; }
+
+section { margin-bottom: 50px; }
+
+section article { font-size: 14px; display: flex; flex-direction: column; g=
+ap: 20px; }
+
+section h2 { font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid=
+ rgb(204, 204, 204); }
+
+section article ul { margin-left: 20px; }
+
+section article ul li { margin-bottom: 10px; }
+
+code { white-space: pre-line; line-height: 2; background: rgb(247, 247, 247=
+); padding: 15px; margin: 10px; border-radius: 5px; }
+
+@media (max-width: 480px) {
+  body { flex-direction: column; }
+  header { height: 200px; overflow: hidden scroll; }
+}
+------MultipartBoundary--QKsOMormOxwvKmadNYdsabfe3fCrYyI7mhrEo44P3L------
